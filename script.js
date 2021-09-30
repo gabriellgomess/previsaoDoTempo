@@ -2,7 +2,7 @@ $(function(){
     $('button').bind('click', function(){
         var cidade = $('#cidade').val();
         // var now = new Date();
-        var tempURL = 'https://api.hgbrasil.com/weather?format=json-cors&key=846261a6&city_name='+cidade
+        var tempURL = 'https://api.hgbrasil.com/weather?format=json-cors&key=????????&city_name='+cidade
 
         $.ajax({
             url: encodeURI(tempURL),
