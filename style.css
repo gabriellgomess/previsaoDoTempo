@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+  .main{
+    padding: 3%;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #5a5a5a,
+                -5px -5px 10px #494949;
+  }
+  .col-12{
+    text-align: center;
+  }
+  label{
+    width: 100%;
+    padding: 5px;
+    background: rgb(54, 54, 54);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 6px 9px 20px -4px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 6px 9px 20px -4px rgba(0,0,0,0.7);
+    -moz-box-shadow: 6px 9px 20px -4px rgba(0,0,0,0.7);
+  }
+  p{
+    height: 20px;
+  }
+
+  body{
+    background: rgb(54, 54, 54);
+  }
+  td{
+    font-size: 13px;
+  }
+  #font{
+    color: white
+  }
+  #page{
+    color: white;
+    /* color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5); */
+    
+  }
+  a{
+    color: inherit;
+  }
+  #today{
+    background: rgb(255, 145, 0);
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -12px -19px 8px -23px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -12px -19px 8px -23px rgba(0,0,0,0);
+
+  }
+   
+  #chart{
+    text-align: center;
+    margin: auto;        
+  }
+  #data{    
+    font-size: small;
+    font-weight: bold;
+  }
+  #temp{
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(22, 22, 22);
+  }
+  #painel{
+    background-color: #bebebe;
+  }
+  #paineldoclima{
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+  }
+  #now{
+    margin: auto;
+    border-radius: 8px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 15px #444343,
+                -5px -5px 15px #585858;
+  }
+  #icon_tempo{
+    height: 55px;
+  }
+  #icon_weather{
+    max-width: 50px;
+    
+  }

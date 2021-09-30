@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Temperatura e Clima</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="container">
+        <h4 id="page" class="mt-5">TEMPERATURA E CLIMA POR CIDADE</h4>
+          <div class="row mt-2">              
+            <div class="col-8">
+              <input placeholder="Digite a Cidade" type="text" name="cidade" id="cidade" class="form-control">
+              <button class="btn btn-primary mt-2">Buscar</button>
+            </div>             
+          </div>          
+          <div id="painel" class="row mt-5 main">            
+            <div id="" class="col-sm-12 col-md-8 col-lg-6">              
+              <div id="today">
+                <div class="row">
+                  <div class="col-12">
+                    <h4 id="paineldoclima" class="mb-4">O Clima Hoje <span id="load"></span></h4>
+                  </div>                  
+                  <div class="col-12">
+                    <div id="now" class="card bg-light mb-3" style="max-width: 18rem;">
+                      <div class="card-header">Hoje <small id="hoje"></small></div>
+                      <div class="card-body">
+                          <h5 id="temp" class="card-title">...°C</h5>
+                          <div id="icon_tempo"></div>
+                          <p class="card-text" id="city"><i class="fas fa-city"></i> Cidade</p>
+                          <p class="card-text" id="temp-min-max">Mín: <i style="color: blue" class="fas fa-arrow-down"></i> ... °C | Máx: <i style="color: red" class="fas fa-arrow-up"></i> ... °C</p>
+                          <p class="card-text" id="umid"><i class="fas fa-tint"></i> Umidade</p>
+                          <p class="card-text" id="clim"><i class="fas fa-info-circle"></i> Clima</p>                        
+                      </div>                      
+                    </div>                    
+                  </div>                  
+                </div>                
+                </div>                    
+              </div>
+              <!-- <p id="font">Fonte: <a href="https://hgbrasil.com/status/weather" target="_blank" rel="noopener noreferrer">HG Brasil | Weather</a></p>                       -->
+              <!-- Próximos dias -->
+              <div class="col-sm-12 col-md-8 col-lg-6">
+                <div id="chart"></div>
+                <div class="table-responsive" id="tab"></div>
+              </div>
+              
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Bootstrap core JS-->
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    
+  </body>
+</html>
